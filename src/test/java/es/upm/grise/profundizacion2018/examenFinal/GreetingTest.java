@@ -8,8 +8,13 @@ public class GreetingTest {
 
 	@Test
 	public void smokeTest1() {
-		Greeting greeting = new Greeting();
+		/*Greeting greeting = new Greeting();
+		assertEquals("Good morning", greeting.getGreeting(null));*/
+		
+		MyCalendar calendar = new MyCalendar();
 		assertEquals("Good morning", greeting.getGreeting(null));
+
+		
 	}
 	
 	@Test
